@@ -1,4 +1,4 @@
-package Basics.TestCode;
+package Basics;
 
 public class TestCode {
 

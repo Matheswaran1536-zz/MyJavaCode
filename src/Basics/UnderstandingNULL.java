@@ -1,4 +1,4 @@
-package Basics.Primitives;
+package Basics;
 
 
 public class UnderstandingNULL {

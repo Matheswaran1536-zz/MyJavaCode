@@ -1,4 +1,4 @@
-package Basics.MyStaticImports;
+package Basics;
 
 import static java.lang.Math.PI;
 import static java.lang.System.out;

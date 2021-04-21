@@ -1,4 +1,4 @@
-package Basics.Primitives;
+package Basics;
 
 import static java.lang.System.*;
 

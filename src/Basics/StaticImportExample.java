@@ -1,4 +1,4 @@
-package Basics.MyStaticImports;
+package Basics;
 
 
 public class StaticImportExample {

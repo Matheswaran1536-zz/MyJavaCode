@@ -1,4 +1,4 @@
-package Basics.Operators;
+package Basics;
 
 public class NumericPromotion {
     public static void main(String[] args) {
