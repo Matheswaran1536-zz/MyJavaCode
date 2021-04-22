@@ -16,6 +16,25 @@ public class UnaryOperatorP1 {
 		
 		System.out.println("B ="+b);
 		
+		// Important Note Code
+		
+		int count =0;
+		
+		System.out.print(count); //0
+		System.out.print(count++); //0
+		System.out.print(++count); //2
+		System.out.print(count--); //2
+		System.out.print(count); //1
+		System.out.print(--count); //0
+		System.out.print(count--); //0
+		System.out.print(count); //-1
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
