@@ -9,7 +9,7 @@ public class EqualmethodVSEqual {
     	String b ="12";
     	
     	String s1 = new String("HELLO");
-    	String s2 = new String("HELLO");
+    	String s2 = new String("HELLO WORLD");
     	
     	System.out.println(s1==s2); // compares the memory address / object referneces of the string
     	
