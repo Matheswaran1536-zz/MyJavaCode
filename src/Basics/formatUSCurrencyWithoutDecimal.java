@@ -1,19 +1,17 @@
 package Basics;
 
-
 import java.text.NumberFormat;
 import java.util.Currency;
 import java.util.Locale;
 
+public class formatUSCurrencyWithoutDecimal {
 
-public class formatUSCurrencyWithDecimal {
-	
-	public void FormatUSCurrencyWithDecimal(String value)
+	public String FormatUSCurrencyWithDecimal(String value)
 	{
 
 	 
 
-	String value1="0";
+	int value1=0;
 	Double ABC= 123.23;
 	String formattedCurrency = "";
 	String digits="";
@@ -24,28 +22,30 @@ public class formatUSCurrencyWithDecimal {
 	}
 	formattedCurrency = amount.replace("$ ","").replace("$","").replace(",","").replace("%","");
 	
-	value1= formattedCurrency;
-	double ex = Double.parseDouble(value1);
-	System.out.print("Formatted Currency - "+ex);
+	 value1= Integer.parseInt(formattedCurrency);
+	
+	
+	System.out.print("Formatted Currency - "+value1);
 	
 	Locale locale = new Locale("en","US");
 	Currency currency = Currency.getInstance(locale);
 	NumberFormat numberFormat = NumberFormat.getCurrencyInstance(locale);
 	
-	String output = numberFormat.format(ex);
-	
+	String output = numberFormat.format(value1);
 	System.out.print("\nLocale Currency - "+output);
 	
+	return output;
 	
 	
 	}
+
+	
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		
-		
-		//System.out.print("Hello World");
-		
-		formatUSCurrencyWithDecimal obj = new formatUSCurrencyWithDecimal();
+		formatUSCurrencyWithoutDecimal obj = new formatUSCurrencyWithoutDecimal();
 		obj.FormatUSCurrencyWithDecimal("14,000");
+
 
 	}
 
