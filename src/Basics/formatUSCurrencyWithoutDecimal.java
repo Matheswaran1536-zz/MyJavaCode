@@ -11,10 +11,8 @@ public class formatUSCurrencyWithoutDecimal {
 
 	 
 
-	int value1=0;
-	Double ABC= 123.23;
+	int amt=0;
 	String formattedCurrency = "";
-	String digits="";
 	String amount = value;
 	int position = amount.indexOf("/");
 	if (position > 0) {
@@ -22,17 +20,17 @@ public class formatUSCurrencyWithoutDecimal {
 	}
 	formattedCurrency = amount.replace("$ ","").replace("$","").replace(",","").replace("%","");
 	
-	 value1= Integer.parseInt(formattedCurrency);
+	 amt = Integer.parseInt(formattedCurrency);
 	
 	
-	System.out.print("Formatted Currency - "+value1);
+	//System.out.print("Formatted Currency - "+amt);
 	
 	Locale locale = new Locale("en","US");
 	Currency currency = Currency.getInstance(locale);
 	NumberFormat numberFormat = NumberFormat.getCurrencyInstance(locale);
 	
-	String output = numberFormat.format(value1);
-	System.out.print("\nLocale Currency - "+output);
+	String output = numberFormat.format(amt);
+	//System.out.print("\nLocale Currency - "+output);
 	
 	return output;
 	
