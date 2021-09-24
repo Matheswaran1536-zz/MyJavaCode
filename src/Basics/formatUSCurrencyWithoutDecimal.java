@@ -42,7 +42,7 @@ public class formatUSCurrencyWithoutDecimal {
 		// TODO Auto-generated method stub
 		
 		formatUSCurrencyWithoutDecimal obj = new formatUSCurrencyWithoutDecimal();
-		obj.FormatUSCurrencyWithDecimal("14,000");
+		obj.FormatUSCurrencyWithDecimal("14,001");
 
 
 	}
