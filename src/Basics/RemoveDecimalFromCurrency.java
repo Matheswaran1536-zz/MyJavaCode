@@ -26,8 +26,20 @@ public class RemoveDecimalFromCurrency {
 	Currency currency = Currency.getInstance(locale);
 	NumberFormat numberFormat = NumberFormat.getCurrencyInstance(locale);
 	String output = numberFormat.format(amt);
-	String mainChapterNumber = output.split("\\.", 2)[0];
-	System.out.print(mainChapterNumber);
+	
+	//String mainChapterNumber = output.split("\\.", 2)[0];
+	System.out.print(output);
+	
+	int position1 = output.indexOf(".");
+	System.out.print(position1);
+	String amount1 = output.substring(0,position1);
+	System.out.print(amount1);
+	
+	
+	
+	
+	
+	
 	return output;
 	
 	
@@ -36,7 +48,7 @@ public class RemoveDecimalFromCurrency {
 		
 		
 		RemoveDecimalFromCurrency obj = new RemoveDecimalFromCurrency();
-		obj.FormatUSCurrencyWithDecimal("14,000");
+		obj.FormatUSCurrencyWithDecimal("$14,000.23");
 
 	}
 
