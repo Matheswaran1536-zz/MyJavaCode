@@ -27,8 +27,6 @@ public class RemoveDecimalFromCurrency {
 	NumberFormat numberFormat = NumberFormat.getCurrencyInstance(locale);
 	String output = numberFormat.format(amt);
 	
-	//String mainChapterNumber = output.split("\\.", 2)[0];
-	System.out.print(output);
 	
 	int position1 = output.indexOf(".");
 	System.out.print(position1);
