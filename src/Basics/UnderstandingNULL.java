@@ -18,7 +18,7 @@ public class UnderstandingNULL {
         System.out.println("MyNAME In Lower Case "+MyNAME);  // Lower case not converted ? why ?
 
 
-        name.toLowerCase();
+       // name.toLowerCase();
           System.out.println(name); // NULL Pointer EXCEPTION
 
 
