@@ -35,7 +35,7 @@ public class formatUSCurrencyWithDecimal {
 		
 		
 		formatUSCurrencyWithDecimal obj = new formatUSCurrencyWithDecimal();
-		obj.FormatUSCurrencyWithDecimal("14,0002");
+		obj.FormatUSCurrencyWithDecimal("14,0003");
 
 	}
 
