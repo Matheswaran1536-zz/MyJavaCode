@@ -26,6 +26,7 @@ public class formatUSCurrencyWithDecimal {
 	Currency currency = Currency.getInstance(locale);
 	NumberFormat numberFormat = NumberFormat.getCurrencyInstance(locale);
 	String output = numberFormat.format(amt);
+	System.out.print(output);
 	return output;
 	
 	
@@ -34,7 +35,7 @@ public class formatUSCurrencyWithDecimal {
 		
 		
 		formatUSCurrencyWithDecimal obj = new formatUSCurrencyWithDecimal();
-		obj.FormatUSCurrencyWithDecimal("14,000");
+		obj.FormatUSCurrencyWithDecimal("14,0003");
 
 	}
 
