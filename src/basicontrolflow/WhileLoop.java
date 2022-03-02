@@ -12,7 +12,7 @@ public class WhileLoop {
 			break;
 		}
 		
-		System.out.println("Outside WHILE LOOP");
+		System.out.println("== Outside WHILE LOOP ==");
 
 	}
 
