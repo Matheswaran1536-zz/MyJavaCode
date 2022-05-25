@@ -2,15 +2,23 @@ package understandingstrings;
 
 public class CreatingStringsandConcatenation {
 	
-	String text = "helo";
-	String alttext = new String("Test");
+	
+	public static void main(String[] args) {
+		
+		
+		String text = "helo";
+		
+			
+		int a = 10;
+		int b = 20;
+		String c = "Test String";
+
+	 System.out.println(a+b);
+		
+	}
+
 	
 	
-	int a = 10;
-	int b = 20;
-	String c = "Test String";
-	System.out.print("Test");
-	
-	//System.out.Print(a + b + c + a + b);
+
 
 }
